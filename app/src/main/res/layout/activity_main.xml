@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/nama"
+        android:hint="Nama"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+         />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/alamat"
+        android:hint="Alamat"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:text="Tambah"
+        android:id="@+id/tambah"
+        ></Button>
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilnama"
+        android:hint="Nama"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilalamat"
+        android:hint="Alamat"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
